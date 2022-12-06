@@ -1,8 +1,13 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
 .header{
     border : 2px solid red;
     height : 45px;
     width : 100%;
-    margin-top : -8px;
+    margin-top : 0;
     display : flex;
     flex-direction : row;
     justify-content : space-between;
@@ -44,4 +49,14 @@
 
 .header-right img {
     height : 44px;
+}
+
+.background-banner {
+    border : 1px solid green;
+    height : 572.5px;
+    background-image : url(./background-banner-nvidia.jpg);
+    background-size: 125% 572.5px;
+    background-repeat: no-repeat;
+    margin-left : -500px;
+    
 }
