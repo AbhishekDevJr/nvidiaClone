@@ -4,7 +4,7 @@ body {
 }
 
 .header{
-    border : 2px solid red;
+    
     height : 45px;
     width : 100%;
     margin-top : 0;
@@ -18,7 +18,7 @@ body {
 
 .header-left {
     margin-left : 90px;
-    border : 1px solid blue;
+    
     width : 500px;
     
     display : flex;
@@ -52,12 +52,13 @@ body {
 }
 
 .background-banner {
-    border : 1px solid green;
+    border : 0.01px solid white;
     height : 572.5px;
     background-image : url(./background-banner-nvidia.jpg);
     background-size: 125% 572.5px;
     background-repeat: no-repeat;
     margin-left : -500px;
+    
     
 }
 
@@ -90,3 +91,16 @@ body {
     background-color : #76b900;
 
 }
+
+.shop-card-container {
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    
+}
+
+.shop-card-container a {
+    text-decoration : none;
+}
+
