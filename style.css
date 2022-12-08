@@ -92,15 +92,67 @@ body {
 
 }
 
+.shop-div {
+    background-color : #eee;
+    height : 500px;
+    margin-top : 0px;
+    padding-top : 40px;
+    
+    
+
+}
+
+.shop-div h1{
+    font-size : 31px;
+    font-family : Arial,Helvetica,Sans-Serif;
+    font-weight : bold;
+    text-align : center;
+
+}
+
 .shop-card-container {
     display : flex;
     flex-direction : row;
-    justify-content : center;
+    justify-content : space-evenly;
     align-items : center;
+    
+    margin-top :28px;
+    
     
 }
 
 .shop-card-container a {
     text-decoration : none;
+    width : 295px;
 }
+
+.card1-pic img, .card2-pic img, .card3-pic img, .card4-pic img {
+    width : 295px;
+}
+
+.card1A {
+    margin-left : 95px;
+    margin-top : -1px;
+}
+
+.card2A {
+    margin-top : 0px;
+}
+
+.card3A {
+    margin-top : -55px;
+}
+
+.card4A {
+    margin-right : 95px;
+    margin-top : 0px;
+}
+
+.shop-card-container a {
+    font-family : Arial,Helvetica,Sans-Serif;
+    color : #1a1a1a;
+    
+}
+
+
 
