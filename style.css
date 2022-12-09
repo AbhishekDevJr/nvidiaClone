@@ -124,10 +124,18 @@ body {
 .shop-card-container a {
     text-decoration : none;
     width : 295px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius : 3px;
+    height : 370px;
+    
+    
+
 }
 
 .card1-pic img, .card2-pic img, .card3-pic img, .card4-pic img {
     width : 295px;
+    border-top-left-radius : 3px;
+    border-top-right-radius : 3px;
 }
 
 .card1A {
@@ -140,7 +148,7 @@ body {
 }
 
 .card3A {
-    margin-top : -55px;
+    margin-top : 2px;
 }
 
 .card4A {
@@ -152,6 +160,16 @@ body {
     font-family : Arial,Helvetica,Sans-Serif;
     color : #1a1a1a;
     
+}
+
+.shop-card-container p {
+    font-size : 14px;
+    line-height : 22px;
+    margin-left : 15px;
+}
+
+.shop-card-container h3 {
+    margin-left : 15px;
 }
 
 
