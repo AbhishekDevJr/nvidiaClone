@@ -127,6 +127,7 @@ body {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius : 3px;
     height : 370px;
+    background-color : white;
     
     
 
@@ -170,6 +171,61 @@ body {
 
 .shop-card-container h3 {
     margin-left : 15px;
+}
+
+.gaming-div {
+    background-color : #eee;
+    height : 500px;
+    margin-top : 0px;
+    padding-top : 40px;
+}
+
+.gaming-card-container {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    align-items : center;
+    border : 1px solid red;
+    padding-left : 90px;
+    padding-right : 90px;
+}
+
+.a1-gaming {
+    margin-top : -1px;
+    
+}
+
+.a2-gaming {
+    margin-top : -20px;
+    
+}
+
+.a3-gaming {
+    margin-top : -20px;
+}
+
+.a4-gaming {
+    margin-top : -20px;
+}
+
+.gaming-card-container a{
+    text-decoration : none;
+    font-family : Arial,Helvetica,Sans-Serif;
+    color : black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color : white;
+    border-radius : 3px;
+}
+
+.gaming-div h1{
+    text-align : center;
+    font-family : Arial,Helvetica,Sans-Serif;
+    font-weight : 700;
+}
+
+.gaming-card-container img {
+    border-top-left-radius : 3px;
+    border-top-right-radius : 3px;
 }
 
 
