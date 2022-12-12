@@ -425,3 +425,57 @@ body {
     margin-bottom : 15px;
 }
 
+.social-links {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+
+}
+
+.social-links-container1 {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    color : white;
+    
+    width : 425px;
+    margin-left : 120px;
+    font-family : Arial,Helvetica,Sans-Serif;
+    font-size : 18px;
+    
+
+
+}
+
+.social-links-container1 button {
+    height : 42.5px;
+    width : 100px;
+    margin-top : -50px;
+    font-family : Arial,Helvetica,Sans-Serif;
+    cursor : pointer;
+    font-size : 16px;
+    font-weight : 700;
+    color : white;
+    background-color : #76b900;
+}
+
+.social-links-container2 {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    
+    color : #747474;
+    font-family : Arial,Helvetica,Sans-Serif;
+    margin-right : 100px;
+    width : 425px;
+    font-size : 14px;
+}
+
+.social-links-container2 img {
+    width : 38px;
+    height : 38px;
+}
+
