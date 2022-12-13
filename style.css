@@ -479,3 +479,74 @@ body {
     height : 38px;
 }
 
+.footer-div {
+    padding-left : 160px;
+    padding-right : 140px;
+    padding-top : 30px;
+    padding-bottom : 20px;
+}
+
+.footer-section1 {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    
+}
+
+.footer-section1 img {
+    width : 110px;
+    height : 25px;
+}
+
+.footer-section1 a {
+    text-decoration : none;
+    font-family : Arial,Helvetica,Sans-Serif;
+    color : #CCC;
+    font-size : 17px;
+    font-weight : bold;
+}
+
+.footer-section2 {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    
+    width : 525px;
+    margin-top : 20px;
+}
+
+.footer-section2 a {
+    text-decoration : none;
+    font-family : Arial,Helvetica,Sans-Serif;
+    color : #666;
+}
+
+.footer-section2 div {
+    background-color : #666;;
+    height : 14px;
+    width : 1px;
+}
+
+.footer-section3 p {
+    font-family : Arial,Helvetica,Sans-Serif;
+    color : #666;
+    font-size : 12px;
+}
+.trademark-div {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    width : 500px;
+    margin-left : 160px;
+    font-family : Arial,Helvetica,Sans-Serif;
+    color : #666;
+
+}
+
+.trademark-div img {
+    width : 38px;
+    height : 38px;
+}
